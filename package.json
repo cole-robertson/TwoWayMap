@@ -1,8 +1,9 @@
 {
-  "name": "two-way-map",
-  "version": "1.0.0",
+  "name": "typed-two-way-map",
+  "version": "1.0.1",
   "description": "A fully typed TwoWayMap that supports string, number, and string literals for the key and values.",
-  "main": "index.js",
+  "main": "dist/src/index.js",
+  "typings": "dist/src/index.d.ts",
   "repository": "https://github.com/cole-robertson/two-way-map.git",
   "author": "Cole Robertson",
   "license": "MIT"
