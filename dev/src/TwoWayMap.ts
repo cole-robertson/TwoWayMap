@@ -1,5 +1,11 @@
 import { TwoWayTypedDict, NumberOrStringLiteral } from "./types";
 
+/**
+ * A class that takes a dictionary map and allows getting and
+ * setting of the reverse map (values for keys). The values and keys
+ * can be strings, numbers, or string literals for type safety and
+ * auto-completion
+ */
 export class TwoWayMap<Keys, Values> {
   public map: TwoWayTypedDict<Keys, Values>;
   public reverseMap: TwoWayTypedDict<Values, Keys>;
